@@ -47,7 +47,7 @@ document.onkeyup = function (event) {
     // Display the user and computer guesses, and wins/losses/ties.
     document.getElementById("numWins").innerHTML = numWinsCounter;
     document.getElementById("numLosses").innerHTML = numLossesCounter;
-    // document.getElementById("numGuesses").innerHTML = numGuessesCounter; 
+    document.getElementById("numGuesses").innerHTML = numGuessesCounter;
     document.getElementById("typedGuesses").innerHTML = typedGuesses;
 
 
